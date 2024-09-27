@@ -10,11 +10,10 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.schema = void 0;
-// src/schema.ts
 const graphql_yoga_1 = require("graphql-yoga");
-const supabase_1 = require("./supabase"); // Ensure supabase.ts is correctly set up
+const supabase_1 = require("./supabase");
 exports.schema = (0, graphql_yoga_1.createSchema)({
-    typeDefs: /* GraphQL */ `
+    typeDefs: `
     type User {
       id: ID!
       username: String!
