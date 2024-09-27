@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "functions": {
+      "api/graphql.ts": {
+        "runtime": "nodejs18.x"
+      }
+    }
+  }
+  
